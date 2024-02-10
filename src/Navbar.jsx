@@ -27,10 +27,31 @@ function Navbar() {
                 className="links"
                 style={{ color: colours.linksColour[pathname] }}
             >
-                <Link to="/">home</Link>
-                <Link to="/honour-roll">honour roll</Link>
-                <Link to="/leaderboard">leaderboard</Link>
-                <Link to="/contacts">contacts</Link>
+                <Link to="/" className={pathname == "/" ? "selected" : ""}>
+                    home
+                </Link>
+                <Link
+                    to="/honour-roll"
+                    className={pathname == "/honour-roll" ? "selected" : ""}
+                >
+                    honour roll
+                </Link>
+                <Link
+                    to="/leaderboard"
+                    className={pathname == "/leaderboard" ? "selected" : ""}
+                >
+                    leaderboard
+                </Link>
+                <Link
+                    to="/contacts"
+                    className={pathname == "/contacts" ? "selected" : ""}
+                >
+                    contacts
+                </Link>
+                <div
+                    className="underline"
+                    style={{ backgroundColor: colours.linksColour[pathname] }}
+                ></div>
             </div>
         </nav>
     );
