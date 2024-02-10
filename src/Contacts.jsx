@@ -1,9 +1,10 @@
 import AnimatedPage from "./AnimatedPage";
+import EmbeddedPage from "./EmbeddedPage";
 
 function Contacts() {
     return (
         <AnimatedPage>
-            <div className="contacts">Contacts</div>
+            <EmbeddedPage embedLink="https://hahstechclub.github.io/tech-club-contacts/" />
         </AnimatedPage>
     );
 }
