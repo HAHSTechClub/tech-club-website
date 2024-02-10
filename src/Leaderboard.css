@@ -1,4 +1,10 @@
+.leaderboard {
+    height: 100%;
+    overflow: hidden;
+    background-color: #ffcc00;
+}
+
 iframe {
     width: 100%;
-    height: calc(100vh - 116px);
+    height: 100%;
 }
