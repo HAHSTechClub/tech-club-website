@@ -1,13 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Layout from "./Layout.jsx";
 import Home from "./Home.jsx";
 import HonourRoll from "./HonourRoll.jsx";
 import Leaderboard from "./Leaderboard.jsx";
 import Contacts from "./Contacts.jsx";
-import Navbar from "./Navbar.jsx";
 
 function App() {
     return (

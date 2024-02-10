@@ -16,7 +16,8 @@
 }
 
 .animatedPage {
-    animation: fadeIn 500ms forwards;
+    animation: fadeIn 400ms;
+    height: 100%;
 }
 
 @keyframes fadeIn {

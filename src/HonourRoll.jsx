@@ -1,9 +1,10 @@
 import AnimatedPage from "./AnimatedPage";
+import EmbeddedPage from "./EmbeddedPage";
 
 function HonourRoll() {
     return (
         <AnimatedPage>
-            <div>Honour Roll</div>
+            <EmbeddedPage embedLink="https://hahstechclub.github.io/tech-club-honour-roll/" />
         </AnimatedPage>
     );
 }
