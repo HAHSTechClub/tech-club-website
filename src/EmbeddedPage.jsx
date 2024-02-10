@@ -5,7 +5,7 @@ function EmbeddedPage({ embedLink }) {
     return (
         <AnimatedPage>
             <div className="embedded-page">
-                <iframe src={embedLink} frameborder="0"></iframe>
+                <iframe src={embedLink} frameBorder="0"></iframe>
             </div>
         </AnimatedPage>
     );

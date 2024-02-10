@@ -18,6 +18,11 @@ nav {
     display: flex;
 }
 
+.menu {
+    display: none;
+    width: 25px;
+}
+
 .links a {
     transition: color 400ms ease-in-out;
     color: inherit;
@@ -33,6 +38,41 @@ nav {
     height: 2px;
     display: block;
     transition: left 300ms ease, background-color 400ms ease-in-out;
+}
+
+.sidenav {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    transition: right 200ms ease-in-out;
+}
+
+.close {
+    width: 25px;
+    margin: 4rem 0 2rem 1rem;
+}
+
+.sidelinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidelinks a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    width: 150px;
+    padding: 2rem 1rem;
+    transition: background-color 200ms ease-in-out;
+}
+
+.sidelinks a.selected {
+    background-color: rgb(255, 250, 178);
+}
+
+.sidelinks a:hover {
+    background-color: rgb(255, 250, 178);
 }
 
 .links > a:nth-child(1).selected ~ .underline {
@@ -65,4 +105,109 @@ nav {
 
 .links > a:nth-child(4):hover ~ .underline {
     left: 625px;
+}
+
+@media screen and (max-width: 1224px) {
+    nav {
+        padding: 1rem 2rem;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .links a {
+        width: 125px;
+        font-size: 12px;
+    }
+
+    .underline {
+        width: 75px;
+    }
+
+    .links > a:nth-child(1).selected ~ .underline {
+        left: 25px;
+    }
+
+    .links > a:nth-child(2).selected ~ .underline {
+        left: 150px;
+    }
+
+    .links > a:nth-child(3).selected ~ .underline {
+        left: 275px;
+    }
+
+    .links > a:nth-child(4).selected ~ .underline {
+        left: 400px;
+    }
+
+    .links > a:nth-child(1):hover ~ .underline {
+        left: 25px;
+    }
+
+    .links > a:nth-child(2):hover ~ .underline {
+        left: 150px;
+    }
+
+    .links > a:nth-child(3):hover ~ .underline {
+        left: 275px;
+    }
+
+    .links > a:nth-child(4):hover ~ .underline {
+        left: 400px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        padding: 1rem 1rem;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .logo {
+        width: 125px;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .underline {
+        width: 75px;
+    }
+
+    .links > a:nth-child(1).selected ~ .underline {
+        left: 25px;
+    }
+
+    .links > a:nth-child(2).selected ~ .underline {
+        left: 150px;
+    }
+
+    .links > a:nth-child(3).selected ~ .underline {
+        left: 275px;
+    }
+
+    .links > a:nth-child(4).selected ~ .underline {
+        left: 400px;
+    }
+
+    .links > a:nth-child(1):hover ~ .underline {
+        left: 25px;
+    }
+
+    .links > a:nth-child(2):hover ~ .underline {
+        left: 150px;
+    }
+
+    .links > a:nth-child(3):hover ~ .underline {
+        left: 275px;
+    }
+
+    .links > a:nth-child(4):hover ~ .underline {
+        left: 400px;
+    }
 }
