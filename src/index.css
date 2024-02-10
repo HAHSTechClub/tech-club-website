@@ -14,3 +14,16 @@
     grid-template-columns: auto;
     grid-template-rows: auto 1fr;
 }
+
+.animatedPage {
+    animation: fadeIn 500ms forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -6,6 +6,7 @@ import Layout from "./Layout.jsx";
 import Home from "./Home.jsx";
 import HonourRoll from "./HonourRoll.jsx";
 import Leaderboard from "./Leaderboard.jsx";
+import Contacts from "./Contacts.jsx";
 import Navbar from "./Navbar.jsx";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
                     <Route index element={<Home />}></Route>
                     <Route path="honour-roll" element={<HonourRoll />}></Route>
                     <Route path="leaderboard" element={<Leaderboard />}></Route>
+                    <Route path="contacts" element={<Contacts />}></Route>
                 </Route>
             </Routes>
         </BrowserRouter>
