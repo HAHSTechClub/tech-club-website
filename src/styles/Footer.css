@@ -1,0 +1,21 @@
+footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px auto;
+    padding: 8px 32px;
+}
+
+.footer-logo {
+    width: 75px;
+}
+
+.footer-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text-container {
+    align-self: center;
+    text-align: center;
+}

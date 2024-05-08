@@ -1,0 +1,141 @@
+.home {
+    display: flex;
+    flex-direction: column;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+            rgba(30, 31, 33, 0.383),
+            rgba(255, 140, 0, 0.727)
+        ),
+        url("../assets/space.avif");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading {
+    align-self: center;
+    width: 500px;
+    margin-top: 150px;
+    margin-bottom: 66px;
+    animation: in 1000ms ease;
+}
+
+.values {
+    color: white;
+    font-size: 25px;
+
+    align-self: center;
+    margin-bottom: 66px;
+    animation: in 1250ms ease;
+}
+
+.logo-3d {
+    width: 100%;
+    animation: in 1500ms ease;
+}
+
+@keyframes in {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.section1 {
+    margin-top: 150px;
+    display: flex;
+    max-width: 1000px;
+    align-items: center;
+    gap: 50px;
+    align-self: center;
+}
+
+.club-photo {
+    width: 500px;
+}
+
+.home h2 {
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.home h2::after {
+    content: " ";
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background-color: rgb(98, 255, 0);
+    bottom: -10px;
+    left: 0;
+}
+
+.section2 {
+    margin-top: 125px;
+
+    align-self: center;
+    max-width: 1000px;
+}
+
+.slide-gallery {
+    margin-top: 32px;
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.slide-gallery img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.section3 {
+    margin-top: 125px;
+
+    align-self: center;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mockup {
+    margin-top: 32px;
+
+    align-self: center;
+}
+
+.section4 {
+    margin-top: 125px;
+
+    align-self: center;
+    max-width: 1000px;
+    margin-bottom: 150px;
+}
+
+.section4 a {
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: black;
+    font-size: 20px;
+    margin-top: 32px;
+    display: block;
+    width: max-content;
+    transition: all 500ms ease-in-out;
+}
+
+.section4 a:hover {
+    background-color: black;
+    color: white;
+}

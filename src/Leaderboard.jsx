@@ -1,11 +1,8 @@
-import AnimatedPage from "./AnimatedPage";
-import EmbeddedPage from "./EmbeddedPage";
+import EmbeddedPage from "./components/EmbeddedPage";
 
 function Leaderboard() {
     return (
-        <AnimatedPage>
-            <EmbeddedPage embedLink="https://utsavk-0112.github.io/Hurlstone-Tech-Club-Leaderboard/" />
-        </AnimatedPage>
+        <EmbeddedPage embedLink="https://utsavk-0112.github.io/Hurlstone-Tech-Club-Leaderboard/" />
     );
 }
 
