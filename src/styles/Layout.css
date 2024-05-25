@@ -1,7 +1,10 @@
+.layout {
+    width: 100%;
+}
+
 .layout > .content {
     margin-top: 120px;
     min-height: calc(100vh - 120px);
-    height: 100%;
     overflow-x: hidden;
     -ms-overflow-style: none; /* Internet Explorer 10+ */
     scrollbar-width: none; /* Firefox */

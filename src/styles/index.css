@@ -7,14 +7,6 @@
     font-family: "JetBrains Mono", monospace;
 }
 
-.layout {
-    height: 100vh;
-    width: 100%;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto 1fr;
-}
-
 .animatedPage {
     animation: fadeIn 400ms;
     height: 100%;
