@@ -1,0 +1,13 @@
+.layout > .content {
+    margin-top: 120px;
+    min-height: calc(100vh - 120px);
+    height: 100%;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 600px) {
+    .layout > .content {
+        margin-top: 86px;
+        min-height: calc(100vh - 86px);
+    }
+}

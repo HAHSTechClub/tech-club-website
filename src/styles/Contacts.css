@@ -1,0 +1,34 @@
+.contacts {
+    height: 100%;
+}
+
+.contacts h1 {
+    margin: 64px;
+}
+
+.contacts table {
+    /* border: 2px solid black; */
+    border-collapse: collapse;
+    width: 80%;
+    margin: 64px auto;
+}
+
+.contacts tr {
+    /* border: 2px solid rgb(255, 0, 0); */
+    display: grid;
+    grid-template-columns: 32px 1fr 1fr;
+}
+
+.contacts td {
+    /* border: 2px double rgb(0, 255, 4); */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 64px;
+    font-size: 20px;
+}
+
+.contacts tr td:nth-child(3) {
+    /* background-color: aquamarine; */
+    text-align: right;
+}
