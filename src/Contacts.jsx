@@ -11,16 +11,14 @@ function Contacts() {
             <table>
                 <tr>
                     <td>
-                        <Email></Email>
+                        <Email></Email> Official Tech Club Email
                     </td>
-                    <td>Official Tech Club Email</td>
                     <td>hahs.techclub@gmail.com</td>
                 </tr>
                 <tr>
                     <td>
-                        <Email></Email>
+                        <Email></Email> Supervising Teachers' Email
                     </td>
-                    <td>Supervising Teachers' Email</td>
                     <td>
                         dijendra.nand4@det.nsw.edu.au <br />
                         mark.zarzour3@det.nsw.edu.au
@@ -28,9 +26,8 @@ function Contacts() {
                 </tr>
                 <tr>
                     <td>
-                        <Email></Email>
+                        <Email></Email> Current Executives' Email
                     </td>
-                    <td>Current Executives' Email</td>
                     <td>
                         utsav.kashichhwa@education.nsw.gov.au <br />
                         karthik.sunderraj@education.nsw.gov.au <br />
@@ -39,17 +36,15 @@ function Contacts() {
                 </tr>
                 <tr>
                     <td>
-                        <Instagram></Instagram>
+                        <Instagram></Instagram> Instagram
                     </td>
-                    <td>Instagram</td>
                     <td>@hahs.tech</td>
                 </tr>
 
                 <tr>
                     <td>
-                        <Map></Map>
+                        <Map></Map>Location
                     </td>
-                    <td>Location</td>
                     <td>
                         Hurlstone Agricultural High School <br />
                         Roy Watts Rd, Glenfield NSW 2167

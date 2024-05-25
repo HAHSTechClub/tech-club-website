@@ -16,7 +16,7 @@
 .contacts tr {
     /* border: 2px solid rgb(255, 0, 0); */
     display: grid;
-    grid-template-columns: 32px 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .contacts td {
@@ -28,7 +28,48 @@
     font-size: 20px;
 }
 
-.contacts tr td:nth-child(3) {
+.contacts tr td:nth-child(1) {
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.contacts tr td:nth-child(2) {
     /* background-color: aquamarine; */
     text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+    .contacts h1 {
+        margin: 16px;
+        font-size: 32px;
+    }
+
+    .contacts table {
+        margin: 16px;
+    }
+
+    .contacts tr {
+        /* border: 2px solid rgb(255, 0, 0); */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts td {
+        /* border: 2px double rgb(0, 255, 4); */
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 8px;
+        font-size: 16px;
+    }
+
+    .contacts tr td:nth-child(2) {
+        /* background-color: aquamarine; */
+        text-align: left;
+        font-size: 14px;
+        padding-bottom: 64px;
+    }
 }
