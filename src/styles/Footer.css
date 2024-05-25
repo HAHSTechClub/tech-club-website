@@ -19,3 +19,28 @@ footer {
     align-self: center;
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    footer {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 60px auto;
+        padding: 8px 8px;
+        font-size: 10px;
+    }
+
+    .footer-logo {
+        width: 50px;
+    }
+
+    .footer-logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-text-container {
+        align-self: center;
+        text-align: center;
+    }
+}
